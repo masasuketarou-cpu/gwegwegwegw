@@ -2614,4 +2614,3 @@ for _, desc in ipairs(PlayerGui:GetDescendants()) do
     task.spawn(HexD.hexSetupLabel, desc)
 end
 PlayerGui.DescendantAdded:Connect(HexD.hexSetupLabel)
-warn("[MASA] Defensas cargadas: AP Defense / Laser Defense / Aimbot listos.")
